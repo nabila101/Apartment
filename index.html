@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylight Apartment</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+      <!-- navbar -->
+      <nav class="nav">
+        <div class="logo">
+          <a href="./index.html" style="text-decoration: none;">
+            <h2>Skylight <br> <span id="black-title">Apartment.</span></h2>
+          </a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="fa fa-arrow-right"></i>
+          </button>
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="./index.html" class="nav_menu_link">Home</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./tipe_rumah.html" class="nav_menu_link">Unit Type</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./tentang.html" class="nav_menu_link">About Us</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./kontak.html" class="nav_menu_link">Contact</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./blog.html" class="nav_menu_link menu_active">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="fa fa-bars"></i>
+        </button>
+
+      </nav>
+    </header>
+    <!-- header -->
+
+    <!-- section beranda -->
+    <section class="wrapper-home" id="home">
+      <div class="container">
+        <div class="grid-cols-2"> 
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Welcome to <span> Skylight Apartment.</span>
+            </h1>
+            <p class="info-text">
+              Discover an apartment designed for a quality and luxury lifestyle, where dreams are nurtured, 
+              and new stories begin. Skylight Apartment offers the perfect space to create lasting memories and 
+              a hopeful future for you and your loved ones. Embrace comfort, style, and a vibrant community that feels like home.
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn_home view_more_btn">
+                Our Contact <i class="fa fa-phone"></i>
+              </button>
+              <button class="btn_home documentation_btn">
+                More Details
+              </button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./img/tower.jpg" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section beranda -->
+
+    <!-- section fasilitas -->
+    <div class="container pt-4 pb-4 mt-2 mb-3 fasilitas">
+      <h1 class="text-center my-5">Our Facilities</h1>
+      <br><br>
+      <div class="row">
+        <div class="col-md-6">
+          <br><br>
+          <h2>Luxury Pool</h2>
+          <p>Dive into a world of tranquility at our state-of-the-art luxury pool. 
+            Surrounded by elegant landscaping and designed with premium finishes, 
+            our infinity-edge pool offers a serene escape from the bustling city. 
+            Enjoy private cabanas, plush loungers, and a dedicated sun deck perfect 
+            for unwinding or socializing. Whether you’re taking a refreshing swim, basking in the sun, 
+            or simply admiring the panoramic views, our pool facilities redefine 
+            leisure and sophistication.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/fasilitas/pool.jpg" alt="kolam-renang" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./img/fasilitas/gym.jpg" alt="kolam-renang" class="img-fluid"/>
+        </div>
+        <div class="col-md-6">
+          <br><br>
+          <h2>High Standart Sport Center</h2>
+          <p>Stay healthy and fit at our fitness center, equipped with modern 
+            equipment and comprehensive facilities. Our team of experienced 
+            instructors is ready to help you achieve your fitness goals. With 
+            tailored training programs, this fitness center becomes your hub for 
+            health and wellness transformation.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <br><br>
+          <h2>Five Stars Restaurants and Cafe</h2>
+          <p>Discover the epitome of culinary excellence at our five-star restaurant 
+            and café. Indulge in a diverse menu crafted by expert chefs, 
+            featuring gourmet dishes made from the finest ingredients.
+            Whether it’s a leisurely breakfast, a business lunch, or an elegant dinner, 
+            every meal is an unforgettable experience.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/fasilitas/restaurant.jpg" alt="kolam-renang" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./img/fasilitas/park.jpg" alt="kolam-renang" class="img-fluid"/>
+        </div>
+        <div class="col-md-6">
+          <br><br>
+          <h2>Green Outdoor Park</h2>
+          <p>Step into a serene oasis at our beautifully landscaped green outdoor park, designed for 
+            relaxation and rejuvenation. Featuring lush greenery, walking paths, and tranquil 
+            seating areas, it’s the perfect escape from the hustle and bustle of city life. Whether 
+            you’re enjoying a peaceful stroll or a moment of reflection, this verdant space brings nature’s 
+            charm to your doorstep.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <br><br>
+          <h2>High Security</h2>
+          <p>Skylight Apartment prioritizes the safety of its residents. Therefore, we provide a 
+            state-of-the-art security system that operates 24 hours a day, 7 days a week. The system 
+            includes CCTV monitoring throughout the complex, ensuring every corner and area is well maintained. 
+            With this, any activity that takes place around the property can be monitored live, providing a high level of security and providing peace of mind to all residents.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/fasilitas/security.jpg" alt="kolam-renang" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <!-- section fasilitas -->
+
+    <!-- Footer-->
+    <br><br><br>
+    <footer class="footer">
+        <div>Copyright &copy; Nabila Ramadhanty 2024</div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./js/script.js" defer></script>
+</body>
+</html>
